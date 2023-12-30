@@ -49,34 +49,50 @@
     /* ❗ 👉 WORK BELOW THIS LINE! */
     /* ❗ 👉 WORK BELOW THIS LINE! */
 
-    /*
-    👉 Part 1 of 2 👈
-    Work through the tasks until the boxes match the `task-1.png` design inside the `design` folder.
-    Making changes to the HTML is not allowed! The tasks must be completed using CSS alone.
-    */
-
     /* 👉 Task 1 - [HINT] only the flex container needs to be manipulated */
+    #flexContainer1 {
+        display: flex;
+        justify-content: center;
+    }
 
     /* 👉 Task 2 - [HINT] the flex container needs to change direction */
+    #flexContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
 
     /* 👉 Task 3 - [HINT] the flex direction can be reversed */
+    #flexContainer3 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
     /* 👉 Task 4 - [HINT] the flex items need a new order */
+    #flexContainer4 .flexItem:nth-child(1) { order: 3; }
+    #flexContainer4 .flexItem:nth-child(2) { order: 2; }
+    #flexContainer4 .flexItem:nth-child(3) { order: 1; }
 
     /* 👉 Task 5 - [HINT] research align-self */
+    #flexContainer5 .flexItem {
+        align-self: center;
+    }
 
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
+    #flexContainer6 .flexItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* 👉 Task 7 - [HINT] research flex-grow */
+    #flexContainer7 .flexItem {
+        flex-grow: 1;
+    }
 
     /* 👉 Task 8 - [HINT] you got this! */
-
-
-    /*
-    👉 Part 2 of 2 👈
-    Revisit the Module Project of HTML & CSS II and re-style it using Flexbox.
-    Prior to starting, remove the "inline-block" declarations, which were a workaround to make divs fall in rows.
-    */
+    #flexContainer8 {
+        /* Apply the properties you've learned based on the design */
+    }
 
     /* ❗ 👉 WORK ABOVE THIS LINE! */
     /* ❗ 👉 WORK ABOVE THIS LINE! */
